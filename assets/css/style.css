@@ -177,65 +177,94 @@ footer {
 	border-top: 7px solid #4aaaa5;
 }
 
-@media only screen and (max-width: 600px) {
-header .container {
-	width: 100%;
-  }
-  
-  .name, .logo {
-	width: 100%;
-	text-align: center;
-  }
-  
-  .logo {
-	padding: 32px 0;
-  }
-  
-  .nav {
-	width: 100%;
-	text-align: center;
-	padding: 1.7em 0;
-	font-size: 1.2em;
-  }
-  
-  .nav ul li {
-	padding-left: 40px;
-	margin-left: 40px;
-  }
-  
-  .nav ul li:first-child {
-	margin-left: 0;
-	padding-left: 0;
-  }
-  
-  .content {
-	  width: 580px;
-  }
-  
-  .main, .sidebar {
-	width: 500px;
-	margin: 40px auto;
-  }
-  
-  .portfolio {
-	text-align: center;
-  }
-  
-  .portfolio-item {
-	width: 100%;
-	margin: 0 auto;
-  }
-  
-  .portfolio-item:nth-child(even) {
-	  margin-left: 0;
-  }
-  
-  .contact {
-	width: 470px;
-  }
-  
-  form {
-	width: 100%;
-	max-width: 100%;
-  }
+/* media queries */
+
+@media screen and (max-width: 680px){
+	header .container {
+		width: 100%;
+	  }
+	  
+	  .name, .logo {
+		width: 100%;
+		text-align: center;
+	  }
+	  
+	  .logo {
+		padding: 1.5ex 0;
+	  }
+	  
+	  .nav {
+		width: 100%;
+		text-align: center;
+		padding: inherit ;
+		font-size: 1.2em;
+	  }
+	  
+	  .nav ul li {
+		padding-left: auto;
+		margin-left: auto;
+	  }
+	  
+	  .nav ul li:first-child {
+		margin-left: 0;
+		padding-left: 0;
+	  }
+	  
+	  .content {
+		  width: auto;
+	  }
+	  
+	  .main, .sidebar {
+		width: auto;
+		margin: autoauto;
+	  }
+	  
+	  .portfolio {
+		text-align: center;
+	  }
+	  
+	  .portfolio-item {
+		width: 100%;
+		margin: 0 auto;
+	  }
+	  
+	  .portfolio-item:nth-child(even) {
+		  margin-left: 0;
+	  }
+	  
+	  .contact {
+		width: 470px;
+	  }
+	  
+	  form {
+		width: 100%;
+		max-width: 100%;
+	 }
+
+	 footer {
+	 	width:auto
+	 }
+
+	 p {
+	 	width:auto;
+	 	font-size:smaller;
+	 	float:none;
+	 	display:inline-block;
+	 	position: relative;
+	 }
+
+	 div.main {
+	 	width:-webkit-fill-available;
+	 }
+
+	 h1 {
+	 	width:auto;
+	 	text-align:center;
+	 }
+
+	 img.profile {
+	 	float:none;
+	 	vertical-align:center;
+	 	display:inline-block;
+	 }
 }
