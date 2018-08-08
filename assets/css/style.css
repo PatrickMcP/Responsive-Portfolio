@@ -123,6 +123,11 @@ img.profile {
 	height: 200px;
 }
 
+img.portfolio {
+	width:400px;
+	height:200px;
+}
+
 
 .portfolio-item {
 	display: inline-table;
@@ -309,10 +314,17 @@ footer {
 			 width:auto;
 			 text-align:center
 		 }
+
+		 img.portfolio{
+		 	width:200px;
+		 	height:200px;
+		 }
+
 	
 		 img.profile {
 			 float:none;
 			 vertical-align:center;
 			 display:inline-block;
 		 };
+
 	}
